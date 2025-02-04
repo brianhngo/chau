@@ -19,7 +19,7 @@ export default function Home() {
   const [prize, setPrize] = useState(false);
   const [yesButtonSize, setYesButtonSize] = useState(1);
 
-  const phraseCountHandler = (event) => {
+  const phraseCountHandler = (event: React.MouseEvent<HTMLButtonElement>) => {
     try {
       event.preventDefault();
       setPhraseCount(phraseCount + 1);
