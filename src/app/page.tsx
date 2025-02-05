@@ -96,30 +96,30 @@ export default function Home() {
           </p>
           {prize === true ? (
             <p className='text-2xl font-semibold mt-5'>
-              Roses are red, Violets are Blue
+              Roses are Red, Violets are Blue
               <br />
               Every time I see flowers, I think of you
               <br />
               Oh Chau Chau, I know I read slow
               <br />
-              But with u, time is slow.
+              But with you, time is slow.
               <br />
               Petals come and go,
               <br />
               But with you, I know
               <br />
-              Youll be there.
+              {"You'll be there."}
               <br />
               <br />
               Oh Chau Chau,
               <br />
               My Baby Chau Chau,
               <br />
-              Every Moment, a thrill,
+              Every moment, is a thrill,
               <br />
-              Love , Laughter, and lost money,
+              Love, Laughter, and Lost Money,
               <br />
-              No matter what, your my Chau Chau
+              {`No matter what, you're my Chau Chau`}
             </p>
           ) : null}
         </div>
